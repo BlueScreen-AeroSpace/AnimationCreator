@@ -38,10 +38,6 @@ function ControlPanel(props: ControlPanelProps) {
   };
 
   const handleTextInputsChange = (r: number, g: number, b: number) => {
-    console.log(r);
-    console.log(g);
-
-    console.log(b);
 
     props.handleColorPickerChange({ r, g, b });
   };
